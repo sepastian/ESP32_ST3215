@@ -12,6 +12,12 @@ The ST3215 Servo uses a half-duplex serial communication, baud rate 1000000. Mak
 
 # Wiring
 
+On the ESP32, connect RX (pin 16) to TX (pin 17) using a 10 K resistor; then connect both to RX on the ST3215 (white).
+
+Connect the ESP32 to 5V and GND, connect the ST3215 to 12V (red) and GND (black).
+
+**Make sure to use common ground for the ESP32 and the ST3215!**
+
             .------------.
             | .--------. |                  .--------.
             | | ESP32  | |                  |        |=||
