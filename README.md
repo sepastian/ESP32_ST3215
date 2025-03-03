@@ -1,4 +1,4 @@
-Demonstrate how to control an ST3215 magnetic encoder servo via UART from an ESP32, without using a dedicated controler board, such as [this one](https://www.waveshare.com/wiki/Servo_Driver_with_ESP32).
+Demonstrate how to control an ST3215 magnetic encoder servo via UART from an ESP32, without using a [dedicated controller board](https://www.waveshare.com/wiki/Servo_Driver_with_ESP32).
 
 # Hardware
 
