@@ -29,6 +29,12 @@ Alternatively, the ESP32 may be connected to 3.3V and GND.
     GND ----| GND   16 RX2 |--------'         |    PWR |---- 12V
             `--------------'                  |    GND |---- GND
                                               `--------'
+
+12V power source, split into 5V for ESP32 and 12V for ST3215.
+TX2 and RX2 are connected using a 10 K resistor; TX2 is then connected to the ST3215 (white).
+
+![ESP32 connected to 5V, driving ST3213](img/ESP32_ST3215.jpg)
+
 ## ESP32 DevKit V1 Pinout
 
 ![ESP32 DevKit V1 Pinout, lastminuteengineers.com](https://lastminuteengineers.com/wp-content/uploads/iot/ESP32-Pinout.png)
