@@ -16,17 +16,19 @@ On the ESP32, connect RX (pin 16) to TX (pin 17) using a 10 K resistor; then con
 
 Connect the ESP32 to 5V and GND, connect the ST3215 to 12V (red) and GND (black).
 
+Alternatively, the ESP32 may be connected to 3.3V and GND.
+
 **Make sure to use common ground for the ESP32 and the ST3215!**
 
-            .------------.
-            | .--------. |                  .--------.
-            | | ESP32  | |                  |        |=||
-            | `--------' |                  | ST3215 |
-            |            |                  |  Servo |
-     5V ----| VIN  17 TX |-- 10K -----------| RX     |
-    GND ----| GND  16 RX |--------'         |    PWR |---- 12V
-            `------------'                  |    GND |---- GND
-                                            `--------'
+            .--------------.
+            |  .--------.  |                  .--------. ||
+            |  | ESP32  |  |                  |        |=||  motor shaft
+            |  `--------'  |                  | ST3215 | ||
+            |              |                  |  Servo |
+     5V ----| VIN   17 TX2 |-- 10K -----------| RX     |
+    GND ----| GND   16 RX2 |--------'         |    PWR |---- 12V
+            `--------------'                  |    GND |---- GND
+                                              `--------'
 ## ESP32 DevKit V1 Pinout
 
 ![ESP32 DevKit V1 Pinout, lastminuteengineers.com](https://lastminuteengineers.com/wp-content/uploads/iot/ESP32-Pinout.png)
