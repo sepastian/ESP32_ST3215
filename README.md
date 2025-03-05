@@ -27,3 +27,8 @@ Connect the ESP32 to 5V and GND, connect the ST3215 to 12V (red) and GND (black)
     GND ----| GND  16 RX |--------'         |    PWR |---- 12V
             `------------'                  |    GND |---- GND
                                             `--------'
+## ESP32 DevKit V1 Pinout
+
+![ESP32 DevKit V1 Pinout, lastminuteengineers.com](https://lastminuteengineers.com/wp-content/uploads/iot/ESP32-Pinout.png)
+
+Source: lastminuteengineers.com
